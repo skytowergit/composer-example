@@ -1,0 +1,16 @@
+{
+    "name": "skytower/composer-example-package",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Sergey Bystrika",
+            "email": "serg.bystrika@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
