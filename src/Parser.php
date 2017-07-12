@@ -7,6 +7,7 @@ class Parser implements ParserInterface {
    public function process(string $url,string $tag) {
         $this->url = $url;
         $this->tag = $tag;
+        // Regular expression(for example)
         $regex = '#['.$tag.'>][\d\s\w-\s]+[<//'.$tag.']#'; //рег.выраж. тег></тег
         $content = file_get_contents($url); //получаем контент страницы
         preg_match_all($regex, $content,  $matches);//делаем выборку содержимого тега
