@@ -12,5 +12,10 @@
             "email": "serg.bystrika@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "skytower\\parser\\": "src/"
+        }
+    },
     "minimum-stability": "stable"
 }

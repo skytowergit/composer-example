@@ -1,6 +1,6 @@
 <?php
 
-require_once 'ParserInterface.php';
+namespace skytower\parser;
 
 class Parser implements ParserInterface {
     
