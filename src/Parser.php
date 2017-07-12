@@ -3,8 +3,8 @@
 namespace skytower\parser;
 
 class Parser implements ParserInterface {
-    
-   public function process(string $url,string $tag) {
+    //must to be: public function process(string $url,string $tag)
+   public function process(string $tag,string $url) {
         $this->url = $url;
         $this->tag = $tag;
         // Regular expression(for example)
@@ -14,7 +14,11 @@ class Parser implements ParserInterface {
 	//var_dump($matches);
         return $matches;
         }
+   public function test(){
+       //feature
+   } 
     };
+   
   // $test = new Parser;
 // $test->process('https://www.w3schools.com/css/','h3');
 ?>
